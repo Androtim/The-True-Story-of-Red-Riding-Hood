@@ -31,25 +31,46 @@ def StartScreen():
 
     if choice == "start":
         ClearScreen()
-        StartGame()
+        START()
 
     elif choice == "tutorial":
         ClearScreen()
-        Tutorial()
+        TUTO()
 
     elif choice == "credits":
         ClearScreen()
-        Credits()
+        CREDS()
 
     elif choice == "settings":
         ClearScreen()
-        Settings()
+        SET()
 
     elif choice == "exit":
         ClearScreen()
-        ExitGame()
+        EXIT()
 
     else:
         ClearScreen()
         WrongChoice()
         StartScreen()
+
+
+def START():
+    from StartGameFunction import StartGame
+    StartGame()
+
+def TUTO():
+    from TutorialFunction import Tutorial
+    Tutorial()
+
+def CREDS():
+    from Game_files.SettingsFunction import Credits
+    Credits()
+
+def SET():
+    from SettingsFunction import Settings
+    Settings()
+
+def EXIT():
+    from ExitGameFunction import ExitGame
+    ExitGame()
