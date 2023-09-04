@@ -15,7 +15,6 @@ elif platform == "darwin":
 elif platform == "win32":
     user_os = "Windows"
 
-#hello
 
 #The game starts
 def StartGame():
