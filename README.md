@@ -9,4 +9,6 @@ All the files needed should be available.
 
 To compile and run the file as an executable, you can use auto-py-to-exe or any other tool you like.
 
+If you just want to test the game as it is, go to the game files and run ``main.py``in a terminal. The game will then launch by itself and be playable.
+
 Have fun helping or just checking in to see how the project goes! :)
