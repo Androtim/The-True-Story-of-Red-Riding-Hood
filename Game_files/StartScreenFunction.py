@@ -64,7 +64,7 @@ def TUTO():
     Tutorial()
 
 def CREDS():
-    from Game_files.SettingsFunction import Credits
+    from CreditsFunction import Credits
     Credits()
 
 def SET():
