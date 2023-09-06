@@ -1,5 +1,15 @@
-import sys, subprocess
+import subprocess
 from sys import platform
+
+global user_os
+if platform == "linux" or platform == "linux2":
+    user_os = "linux"
+
+elif platform == "darwin":
+    user_os = "mac"
+
+elif platform == "win32":
+    user_os = "Windows"
 
 #This funtion clears the player's screen
 def ClearScreen():
