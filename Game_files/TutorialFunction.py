@@ -11,7 +11,7 @@ def Tutorial():
         (To go back to the main menu, type [main])
     """)
 
-    choice = input("").lower()
+    choice = input("> ").lower()
 
     if choice == "main":
         ClearScreen()

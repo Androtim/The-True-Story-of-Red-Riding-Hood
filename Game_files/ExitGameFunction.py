@@ -10,7 +10,7 @@ def ExitGame():
         Do you want to exit the game? [y] or [n]
     """)
 
-    choice = input("").lower()
+    choice = input("> ").lower()
 
     if choice == "y":
         ClearScreen()
@@ -24,7 +24,7 @@ def ExitGame():
         Do you want to go back to the main menu? [y] or [n]
         """)
 
-        choice = input("").lower()
+        choice = input("> ").lower()
 
         if choice == "y":
             ClearScreen()

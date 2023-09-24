@@ -27,7 +27,7 @@ def StartScreen():
     
     print(TextOnScreen)
 
-    choice = input("").lower()
+    choice = input("> ").lower()
 
     if choice == "start":
         ClearScreen()

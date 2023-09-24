@@ -15,7 +15,7 @@ def GrannyStory():
     print(TextOnScreen)
 
 	#the player's input
-    choice = input("").lower()
+    choice = input("> ").lower()
 
 	#makes the player be able to go back to the main menu at any given moment
     if choice == "main":
