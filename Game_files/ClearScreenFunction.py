@@ -30,5 +30,5 @@ def ClearScreen():
     return
 
 def blank_line(n=1):
-        for i in range(n):
-                print()
+    for i in range(n):
+        print()
