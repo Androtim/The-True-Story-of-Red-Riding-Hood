@@ -28,3 +28,7 @@ def ClearScreen():
         \033[0m""")
 
     return
+
+def blank_line(n=1):
+        for i in range(n):
+                print()
